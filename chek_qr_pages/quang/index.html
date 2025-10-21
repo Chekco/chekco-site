@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nhân viên Quảng - CHEK</title>
-  <link rel="stylesheet" href="assets/style.css">
-  <script src="qr_redirect.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nhân viên Quảng | CHEK</title>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3SPDB033YJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-3SPDB033YJ');
+  </script>
+
+  <!-- Style -->
+  <link rel="stylesheet" href="./assets/style.css" />
 </head>
 <body>
-  <header>
-    <img src="assets/logo.png" alt="CHEK Logo">
-  </header>
+  <div class="container">
+    <img src="./assets/logo.png" alt="CHEK Logo" class="logo" />
 
-  <h1>Nguyễn Quảng</h1>
-  <p>Đại diện trung tâm CHEK Pearson VUE</p>
-  <a href="https://zalo.me/0912187472" class="zalo-btn">Liên hệ qua Zalo</a>
+    <h1 class="staff-name">Nguyễn Văn Quảng</h1>
+    <p class="staff-role">Chuyên viên Tư vấn | CHEK Co.</p>
 
-  <footer>© 2025 CHEK Pearson VUE</footer>
+    <div class="info-box">
+      <p><strong>Số điện thoại:</strong> 0912 187 472</p>
+      <p><strong>Zalo:</strong> <a href="https://zalo.me/0912187472" target="_blank">zalo.me/0912187472</a></p>
+    </div>
+
+    <a href="https://zalo.me/0912187472" class="btn-zalo" target="_blank">
+      Nhắn Zalo Ngay
+    </a>
+  </div>
 </body>
 </html>
